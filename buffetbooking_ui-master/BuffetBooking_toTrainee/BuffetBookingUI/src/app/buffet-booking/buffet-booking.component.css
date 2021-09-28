@@ -1,0 +1,18 @@
+.text{
+    font-weight: 500;
+}
+.panel-heading {
+    text-align: center;
+    font-size: 20px;
+    background-color: rgba(24, 114, 194, 0.616);
+    margin-bottom: 10px;
+}
+
+.panel-body {
+    background-color: rgba(201, 206, 224, 0.616);
+
+}
+
+.panel {
+    background-color: rgba(255, 255, 255, 0);
+}

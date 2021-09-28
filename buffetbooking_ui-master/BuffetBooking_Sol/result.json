@@ -1,0 +1,989 @@
+{
+    "summary": {
+        "success": 61,
+        "failed": 0,
+        "error": false,
+        "disconnected": false,
+        "exitCode": 0
+    },
+    "browsers": [
+        {
+            "browser": {
+                "id": "11767292",
+                "fullName": "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/73.0.3683.86 Safari/537.36",
+                "name": "HeadlessChrome 0.0.0 (Windows 8.1 0.0.0)",
+                "state": 5,
+                "lastResult": {
+                    "startTime": 1553574247609,
+                    "success": 61,
+                    "failed": 0,
+                    "skipped": 0,
+                    "total": 61,
+                    "totalTime": 3758,
+                    "netTime": 3726,
+                    "error": false,
+                    "disconnected": false
+                },
+                "disconnectsCount": 0,
+                "noActivityTimeout": 50000,
+                "disconnectDelay": 2000
+            },
+            "errors": [],
+            "results": [
+                {
+                    "fullName": "Testing AppComponent TAC 1 - Checking presence of routerOutletTag",
+                    "description": "TAC 1 - Checking presence of routerOutletTag",
+                    "id": "spec0",
+                    "log": [],
+                    "skipped": false,
+                    "disabled": false,
+                    "pending": false,
+                    "success": true,
+                    "suite": [
+                        "Testing AppComponent"
+                    ],
+                    "time": 258,
+                    "executedExpectationsCount": 1
+                },
+                {
+                    "fullName": "AppRoutingModule TRM 1 - Check whether the Catchall is provided",
+                    "description": "TRM 1 - Check whether the Catchall is provided",
+                    "id": "spec1",
+                    "log": [],
+                    "skipped": false,
+                    "disabled": false,
+                    "pending": false,
+                    "success": true,
+                    "suite": [
+                        "AppRoutingModule"
+                    ],
+                    "time": 3,
+                    "executedExpectationsCount": 1
+                },
+                {
+                    "fullName": "AppRoutingModule TRM 2 - Check if routes are present",
+                    "description": "TRM 2 - Check if routes are present",
+                    "id": "spec2",
+                    "log": [],
+                    "skipped": false,
+                    "disabled": false,
+                    "pending": false,
+                    "success": true,
+                    "suite": [
+                        "AppRoutingModule"
+                    ],
+                    "time": 1,
+                    "executedExpectationsCount": 1
+                },
+                {
+                    "fullName": "BuffetBookingComponent HTML - EmailId Field TSC 1 - Book: Email id validation for no input -should be invalid",
+                    "description": "TSC 1 - Book: Email id validation for no input -should be invalid",
+                    "id": "spec3",
+                    "log": [],
+                    "skipped": false,
+                    "disabled": false,
+                    "pending": false,
+                    "success": true,
+                    "suite": [
+                        "BuffetBookingComponent",
+                        "HTML - EmailId Field"
+                    ],
+                    "time": 159,
+                    "executedExpectationsCount": 1
+                },
+                {
+                    "fullName": "BuffetBookingComponent HTML - EmailId Field TSC 2 - Book: Email id validation for no input-error should be required",
+                    "description": "TSC 2 - Book: Email id validation for no input-error should be required",
+                    "id": "spec4",
+                    "log": [],
+                    "skipped": false,
+                    "disabled": false,
+                    "pending": false,
+                    "success": true,
+                    "suite": [
+                        "BuffetBookingComponent",
+                        "HTML - EmailId Field"
+                    ],
+                    "time": 82,
+                    "executedExpectationsCount": 1
+                },
+                {
+                    "fullName": "BuffetBookingComponent HTML - EmailId Field TSC 3 - Email id should not display the error message initialy",
+                    "description": "TSC 3 - Email id should not display the error message initialy",
+                    "id": "spec5",
+                    "log": [],
+                    "skipped": false,
+                    "disabled": false,
+                    "pending": false,
+                    "success": true,
+                    "suite": [
+                        "BuffetBookingComponent",
+                        "HTML - EmailId Field"
+                    ],
+                    "time": 97,
+                    "executedExpectationsCount": 1
+                },
+                {
+                    "fullName": "BuffetBookingComponent HTML - EmailId Field TSC 4 - Email id should display the invalid error message",
+                    "description": "TSC 4 - Email id should display the invalid error message",
+                    "id": "spec6",
+                    "log": [],
+                    "skipped": false,
+                    "disabled": false,
+                    "pending": false,
+                    "success": true,
+                    "suite": [
+                        "BuffetBookingComponent",
+                        "HTML - EmailId Field"
+                    ],
+                    "time": 86,
+                    "executedExpectationsCount": 1
+                },
+                {
+                    "fullName": "BuffetBookingComponent HTML - Buffet Name Field TSC 4 - Buffet Name: Field should be valid",
+                    "description": "TSC 4 - Buffet Name: Field should be valid",
+                    "id": "spec7",
+                    "log": [],
+                    "skipped": false,
+                    "disabled": false,
+                    "pending": false,
+                    "success": true,
+                    "suite": [
+                        "BuffetBookingComponent",
+                        "HTML - Buffet Name Field"
+                    ],
+                    "time": 81,
+                    "executedExpectationsCount": 1
+                },
+                {
+                    "fullName": "BuffetBookingComponent HTML - Buffet Name Field TSC 5 - Buffet Name: No error message",
+                    "description": "TSC 5 - Buffet Name: No error message",
+                    "id": "spec8",
+                    "log": [],
+                    "skipped": false,
+                    "disabled": false,
+                    "pending": false,
+                    "success": true,
+                    "suite": [
+                        "BuffetBookingComponent",
+                        "HTML - Buffet Name Field"
+                    ],
+                    "time": 97,
+                    "executedExpectationsCount": 1
+                },
+                {
+                    "fullName": "BuffetBookingComponent HTML - Buffet Name Field TSC 4 - Buffet Name: Field should be invalid",
+                    "description": "TSC 4 - Buffet Name: Field should be invalid",
+                    "id": "spec9",
+                    "log": [],
+                    "skipped": false,
+                    "disabled": false,
+                    "pending": false,
+                    "success": true,
+                    "suite": [
+                        "BuffetBookingComponent",
+                        "HTML - Buffet Name Field"
+                    ],
+                    "time": 69,
+                    "executedExpectationsCount": 1
+                },
+                {
+                    "fullName": "BuffetBookingComponent HTML - Buffet Name Field TSC 5 - Buffet Name: Error message",
+                    "description": "TSC 5 - Buffet Name: Error message",
+                    "id": "spec10",
+                    "log": [],
+                    "skipped": false,
+                    "disabled": false,
+                    "pending": false,
+                    "success": true,
+                    "suite": [
+                        "BuffetBookingComponent",
+                        "HTML - Buffet Name Field"
+                    ],
+                    "time": 84,
+                    "executedExpectationsCount": 1
+                },
+                {
+                    "fullName": "BuffetBookingComponent HTML - Plate count TSC 6 - Plate Count:Field should be valid",
+                    "description": "TSC 6 - Plate Count:Field should be valid",
+                    "id": "spec11",
+                    "log": [],
+                    "skipped": false,
+                    "disabled": false,
+                    "pending": false,
+                    "success": true,
+                    "suite": [
+                        "BuffetBookingComponent",
+                        "HTML - Plate count"
+                    ],
+                    "time": 70,
+                    "executedExpectationsCount": 1
+                },
+                {
+                    "fullName": "BuffetBookingComponent HTML - Plate count TSC 7 - Plate Count: Error should be null",
+                    "description": "TSC 7 - Plate Count: Error should be null",
+                    "id": "spec12",
+                    "log": [],
+                    "skipped": false,
+                    "disabled": false,
+                    "pending": false,
+                    "success": true,
+                    "suite": [
+                        "BuffetBookingComponent",
+                        "HTML - Plate count"
+                    ],
+                    "time": 88,
+                    "executedExpectationsCount": 1
+                },
+                {
+                    "fullName": "BuffetBookingComponent HTML - Plate count TSC 6 - Plate Count:Field should be invalid",
+                    "description": "TSC 6 - Plate Count:Field should be invalid",
+                    "id": "spec13",
+                    "log": [],
+                    "skipped": false,
+                    "disabled": false,
+                    "pending": false,
+                    "success": true,
+                    "suite": [
+                        "BuffetBookingComponent",
+                        "HTML - Plate count"
+                    ],
+                    "time": 79,
+                    "executedExpectationsCount": 1
+                },
+                {
+                    "fullName": "BuffetBookingComponent HTML - Plate count TSC 7 - Plate Count: Error should be displayed",
+                    "description": "TSC 7 - Plate Count: Error should be displayed",
+                    "id": "spec14",
+                    "log": [],
+                    "skipped": false,
+                    "disabled": false,
+                    "pending": false,
+                    "success": true,
+                    "suite": [
+                        "BuffetBookingComponent",
+                        "HTML - Plate count"
+                    ],
+                    "time": 97,
+                    "executedExpectationsCount": 1
+                },
+                {
+                    "fullName": "BuffetBookingComponent HTML - Booked On TSC 9 - bookedOn: Field should be invalid",
+                    "description": "TSC 9 - bookedOn: Field should be invalid",
+                    "id": "spec15",
+                    "log": [],
+                    "skipped": false,
+                    "disabled": false,
+                    "pending": false,
+                    "success": true,
+                    "suite": [
+                        "BuffetBookingComponent",
+                        "HTML - Booked On"
+                    ],
+                    "time": 59,
+                    "executedExpectationsCount": 1
+                },
+                {
+                    "fullName": "BuffetBookingComponent HTML - Booked On TSC 10 - bookedOn: Error message should be displayed",
+                    "description": "TSC 10 - bookedOn: Error message should be displayed",
+                    "id": "spec16",
+                    "log": [],
+                    "skipped": false,
+                    "disabled": false,
+                    "pending": false,
+                    "success": true,
+                    "suite": [
+                        "BuffetBookingComponent",
+                        "HTML - Booked On"
+                    ],
+                    "time": 65,
+                    "executedExpectationsCount": 1
+                },
+                {
+                    "fullName": "BuffetBookingComponent HTML - Booked On TSC 12 - bookedon: should be required",
+                    "description": "TSC 12 - bookedon: should be required",
+                    "id": "spec17",
+                    "log": [],
+                    "skipped": false,
+                    "disabled": false,
+                    "pending": false,
+                    "success": true,
+                    "suite": [
+                        "BuffetBookingComponent",
+                        "HTML - Booked On"
+                    ],
+                    "time": 65,
+                    "executedExpectationsCount": 1
+                },
+                {
+                    "fullName": "BuffetBookingComponent HTML - Booked On TSC 10 - bookedOn: Field should be valid",
+                    "description": "TSC 10 - bookedOn: Field should be valid",
+                    "id": "spec18",
+                    "log": [],
+                    "skipped": false,
+                    "disabled": false,
+                    "pending": false,
+                    "success": true,
+                    "suite": [
+                        "BuffetBookingComponent",
+                        "HTML - Booked On"
+                    ],
+                    "time": 75,
+                    "executedExpectationsCount": 1
+                },
+                {
+                    "fullName": "BuffetBookingComponent Checking HTML form elements binding TSC 34 - Rent:check binding of formgroup to form tag",
+                    "description": "TSC 34 - Rent:check binding of formgroup to form tag",
+                    "id": "spec19",
+                    "log": [],
+                    "skipped": false,
+                    "disabled": false,
+                    "pending": false,
+                    "success": true,
+                    "suite": [
+                        "BuffetBookingComponent",
+                        "Checking HTML form elements binding"
+                    ],
+                    "time": 74,
+                    "executedExpectationsCount": 1
+                },
+                {
+                    "fullName": "BuffetBookingComponent Checking HTML form elements binding TSC 35 - Form: check binding of formcontrol to emailId tag",
+                    "description": "TSC 35 - Form: check binding of formcontrol to emailId tag",
+                    "id": "spec20",
+                    "log": [],
+                    "skipped": false,
+                    "disabled": false,
+                    "pending": false,
+                    "success": true,
+                    "suite": [
+                        "BuffetBookingComponent",
+                        "Checking HTML form elements binding"
+                    ],
+                    "time": 74,
+                    "executedExpectationsCount": 1
+                },
+                {
+                    "fullName": "BuffetBookingComponent Checking HTML form elements binding TSC 36 - Form: check binding of formcontrol to bookedOn tag",
+                    "description": "TSC 36 - Form: check binding of formcontrol to bookedOn tag",
+                    "id": "spec21",
+                    "log": [],
+                    "skipped": false,
+                    "disabled": false,
+                    "pending": false,
+                    "success": true,
+                    "suite": [
+                        "BuffetBookingComponent",
+                        "Checking HTML form elements binding"
+                    ],
+                    "time": 71,
+                    "executedExpectationsCount": 1
+                },
+                {
+                    "fullName": "BuffetBookingComponent Checking HTML form elements binding TSC 37 - Form: check binding of formcontrol to plateCount tag",
+                    "description": "TSC 37 - Form: check binding of formcontrol to plateCount tag",
+                    "id": "spec22",
+                    "log": [],
+                    "skipped": false,
+                    "disabled": false,
+                    "pending": false,
+                    "success": true,
+                    "suite": [
+                        "BuffetBookingComponent",
+                        "Checking HTML form elements binding"
+                    ],
+                    "time": 91,
+                    "executedExpectationsCount": 1
+                },
+                {
+                    "fullName": "BuffetBookingComponent Checking HTML form elements binding TSC 38 - Form: check binding of formcontrol to buffetName tag",
+                    "description": "TSC 38 - Form: check binding of formcontrol to buffetName tag",
+                    "id": "spec23",
+                    "log": [],
+                    "skipped": false,
+                    "disabled": false,
+                    "pending": false,
+                    "success": true,
+                    "suite": [
+                        "BuffetBookingComponent",
+                        "Checking HTML form elements binding"
+                    ],
+                    "time": 74,
+                    "executedExpectationsCount": 1
+                },
+                {
+                    "fullName": "BuffetBookingComponent Submiting invalid data TSC 40 - Rent:Form level validation should be invalid",
+                    "description": "TSC 40 - Rent:Form level validation should be invalid",
+                    "id": "spec24",
+                    "log": [],
+                    "skipped": false,
+                    "disabled": false,
+                    "pending": false,
+                    "success": true,
+                    "suite": [
+                        "BuffetBookingComponent",
+                        "Submiting invalid data"
+                    ],
+                    "time": 94,
+                    "executedExpectationsCount": 1
+                },
+                {
+                    "fullName": "BuffetBookingComponent Submiting invalid data TSC 41 - Rent:Submit button should have disabled property",
+                    "description": "TSC 41 - Rent:Submit button should have disabled property",
+                    "id": "spec25",
+                    "log": [],
+                    "skipped": false,
+                    "disabled": false,
+                    "pending": false,
+                    "success": true,
+                    "suite": [
+                        "BuffetBookingComponent",
+                        "Submiting invalid data"
+                    ],
+                    "time": 77,
+                    "executedExpectationsCount": 1
+                },
+                {
+                    "fullName": "BuffetBookingComponent Submiting valid data TSC 42 - Buffet:Check if the bookBuffet method calls service",
+                    "description": "TSC 42 - Buffet:Check if the bookBuffet method calls service",
+                    "id": "spec26",
+                    "log": [],
+                    "skipped": false,
+                    "disabled": false,
+                    "pending": false,
+                    "success": true,
+                    "suite": [
+                        "BuffetBookingComponent",
+                        "Submiting valid data"
+                    ],
+                    "time": 61,
+                    "executedExpectationsCount": 1
+                },
+                {
+                    "fullName": "BuffetBookingComponent Submiting valid data TSC 43 - Buffet: bookBuffet method nullifies error the messages on success",
+                    "description": "TSC 43 - Buffet: bookBuffet method nullifies error the messages on success",
+                    "id": "spec27",
+                    "log": [],
+                    "skipped": false,
+                    "disabled": false,
+                    "pending": false,
+                    "success": true,
+                    "suite": [
+                        "BuffetBookingComponent",
+                        "Submiting valid data"
+                    ],
+                    "time": 75,
+                    "executedExpectationsCount": 2
+                },
+                {
+                    "fullName": "BuffetBookingComponent Submiting valid data TSC 44 - Rent:Check if the bookBuffet method nullifies success on error",
+                    "description": "TSC 44 - Rent:Check if the bookBuffet method nullifies success on error",
+                    "id": "spec28",
+                    "log": [],
+                    "skipped": false,
+                    "disabled": false,
+                    "pending": false,
+                    "success": true,
+                    "suite": [
+                        "BuffetBookingComponent",
+                        "Submiting valid data"
+                    ],
+                    "time": 81,
+                    "executedExpectationsCount": 2
+                },
+                {
+                    "fullName": "BuffetBookingComponent Bootstrap classes used TSC 45 - Buffet:form tag has class form",
+                    "description": "TSC 45 - Buffet:form tag has class form",
+                    "id": "spec29",
+                    "log": [],
+                    "skipped": false,
+                    "disabled": false,
+                    "pending": false,
+                    "success": true,
+                    "suite": [
+                        "BuffetBookingComponent",
+                        "Bootstrap classes used"
+                    ],
+                    "time": 90,
+                    "executedExpectationsCount": 1
+                },
+                {
+                    "fullName": "BuffetBookingComponent Bootstrap classes used TSC 46 - Buffet:Customer id has form-group class",
+                    "description": "TSC 46 - Buffet:Customer id has form-group class",
+                    "id": "spec30",
+                    "log": [],
+                    "skipped": false,
+                    "disabled": false,
+                    "pending": false,
+                    "success": true,
+                    "suite": [
+                        "BuffetBookingComponent",
+                        "Bootstrap classes used"
+                    ],
+                    "time": 98,
+                    "executedExpectationsCount": 1
+                },
+                {
+                    "fullName": "BuffetBookingComponent Bootstrap classes used TSC 47 - Buffet:Customer id has form control class",
+                    "description": "TSC 47 - Buffet:Customer id has form control class",
+                    "id": "spec31",
+                    "log": [],
+                    "skipped": false,
+                    "disabled": false,
+                    "pending": false,
+                    "success": true,
+                    "suite": [
+                        "BuffetBookingComponent",
+                        "Bootstrap classes used"
+                    ],
+                    "time": 69,
+                    "executedExpectationsCount": 1
+                },
+                {
+                    "fullName": "BuffetBookingComponent Bootstrap classes used TSC 49 - Buffet: bookedOn has form-group class",
+                    "description": "TSC 49 - Buffet: bookedOn has form-group class",
+                    "id": "spec32",
+                    "log": [],
+                    "skipped": false,
+                    "disabled": false,
+                    "pending": false,
+                    "success": true,
+                    "suite": [
+                        "BuffetBookingComponent",
+                        "Bootstrap classes used"
+                    ],
+                    "time": 61,
+                    "executedExpectationsCount": 1
+                },
+                {
+                    "fullName": "BuffetBookingComponent Bootstrap classes used TSC 50 - Buffet: bookedOn has form control class",
+                    "description": "TSC 50 - Buffet: bookedOn has form control class",
+                    "id": "spec33",
+                    "log": [],
+                    "skipped": false,
+                    "disabled": false,
+                    "pending": false,
+                    "success": true,
+                    "suite": [
+                        "BuffetBookingComponent",
+                        "Bootstrap classes used"
+                    ],
+                    "time": 65,
+                    "executedExpectationsCount": 1
+                },
+                {
+                    "fullName": "BuffetBookingComponent Bootstrap classes used TSC 52 - Buffet: plateCount has form-group class",
+                    "description": "TSC 52 - Buffet: plateCount has form-group class",
+                    "id": "spec34",
+                    "log": [],
+                    "skipped": false,
+                    "disabled": false,
+                    "pending": false,
+                    "success": true,
+                    "suite": [
+                        "BuffetBookingComponent",
+                        "Bootstrap classes used"
+                    ],
+                    "time": 69,
+                    "executedExpectationsCount": 1
+                },
+                {
+                    "fullName": "BuffetBookingComponent Bootstrap classes used TSC 53 - Buffet: plateCount has form control class",
+                    "description": "TSC 53 - Buffet: plateCount has form control class",
+                    "id": "spec35",
+                    "log": [],
+                    "skipped": false,
+                    "disabled": false,
+                    "pending": false,
+                    "success": true,
+                    "suite": [
+                        "BuffetBookingComponent",
+                        "Bootstrap classes used"
+                    ],
+                    "time": 90,
+                    "executedExpectationsCount": 1
+                },
+                {
+                    "fullName": "BuffetBookingComponent Bootstrap classes used TSC 55 - Buffet: buffetName has form-check-label class",
+                    "description": "TSC 55 - Buffet: buffetName has form-check-label class",
+                    "id": "spec36",
+                    "log": [],
+                    "skipped": false,
+                    "disabled": false,
+                    "pending": false,
+                    "success": true,
+                    "suite": [
+                        "BuffetBookingComponent",
+                        "Bootstrap classes used"
+                    ],
+                    "time": 91,
+                    "executedExpectationsCount": 1
+                },
+                {
+                    "fullName": "BuffetBookingComponent Bootstrap classes used TSC 56 - Buffet: buffetName has form-check-input class",
+                    "description": "TSC 56 - Buffet: buffetName has form-check-input class",
+                    "id": "spec37",
+                    "log": [],
+                    "skipped": false,
+                    "disabled": false,
+                    "pending": false,
+                    "success": true,
+                    "suite": [
+                        "BuffetBookingComponent",
+                        "Bootstrap classes used"
+                    ],
+                    "time": 60,
+                    "executedExpectationsCount": 1
+                },
+                {
+                    "fullName": "BuffetBookingComponent Bootstrap classes used TSC 59  - Buffet:button should have class btn btn-primary",
+                    "description": "TSC 59  - Buffet:button should have class btn btn-primary",
+                    "id": "spec38",
+                    "log": [],
+                    "skipped": false,
+                    "disabled": false,
+                    "pending": false,
+                    "success": true,
+                    "suite": [
+                        "BuffetBookingComponent",
+                        "Bootstrap classes used"
+                    ],
+                    "time": 60,
+                    "executedExpectationsCount": 1
+                },
+                {
+                    "fullName": "BuffetBookingComponent Bootstrap classes used TSC 60 - Buffet: Success message shough have proper bootstrap class",
+                    "description": "TSC 60 - Buffet: Success message shough have proper bootstrap class",
+                    "id": "spec39",
+                    "log": [],
+                    "skipped": false,
+                    "disabled": false,
+                    "pending": false,
+                    "success": true,
+                    "suite": [
+                        "BuffetBookingComponent",
+                        "Bootstrap classes used"
+                    ],
+                    "time": 68,
+                    "executedExpectationsCount": 1
+                },
+                {
+                    "fullName": "BuffetBookingComponent Bootstrap classes used TSC 61 - Buffet: Error message shough have proper bootstrap class",
+                    "description": "TSC 61 - Buffet: Error message shough have proper bootstrap class",
+                    "id": "spec40",
+                    "log": [],
+                    "skipped": false,
+                    "disabled": false,
+                    "pending": false,
+                    "success": true,
+                    "suite": [
+                        "BuffetBookingComponent",
+                        "Bootstrap classes used"
+                    ],
+                    "time": 74,
+                    "executedExpectationsCount": 1
+                },
+                {
+                    "fullName": "Testing BuffetBookingService TS 1 - BuffetBookingService should be injected",
+                    "description": "TS 1 - BuffetBookingService should be injected",
+                    "id": "spec41",
+                    "log": [],
+                    "skipped": false,
+                    "disabled": false,
+                    "pending": false,
+                    "success": true,
+                    "suite": [
+                        "Testing BuffetBookingService"
+                    ],
+                    "time": 13,
+                    "executedExpectationsCount": 1
+                },
+                {
+                    "fullName": "Testing BuffetBookingService TS 2 - HttpClient must be injected in BuffetBookingService",
+                    "description": "TS 2 - HttpClient must be injected in BuffetBookingService",
+                    "id": "spec42",
+                    "log": [],
+                    "skipped": false,
+                    "disabled": false,
+                    "pending": false,
+                    "success": true,
+                    "suite": [
+                        "Testing BuffetBookingService"
+                    ],
+                    "time": 11,
+                    "executedExpectationsCount": 2
+                },
+                {
+                    "fullName": "Testing Fetching data through BuffetBookingService TS 3 - BuffetBookingService: Missing dependencies",
+                    "description": "TS 3 - BuffetBookingService: Missing dependencies",
+                    "id": "spec43",
+                    "log": [],
+                    "skipped": false,
+                    "disabled": false,
+                    "pending": false,
+                    "success": true,
+                    "suite": [
+                        "Testing Fetching data through BuffetBookingService"
+                    ],
+                    "time": 9,
+                    "executedExpectationsCount": 1
+                },
+                {
+                    "fullName": "Testing Fetching data through BuffetBookingService TS 4 - BuffetBookingService: Used Proper URL",
+                    "description": "TS 4 - BuffetBookingService: Used Proper URL",
+                    "id": "spec44",
+                    "log": [],
+                    "skipped": false,
+                    "disabled": false,
+                    "pending": false,
+                    "success": true,
+                    "suite": [
+                        "Testing Fetching data through BuffetBookingService"
+                    ],
+                    "time": 8,
+                    "executedExpectationsCount": 1
+                },
+                {
+                    "fullName": "Testing Fetching data through BuffetBookingService TS 5 - BuffetBookingService: used PUT method",
+                    "description": "TS 5 - BuffetBookingService: used PUT method",
+                    "id": "spec45",
+                    "log": [],
+                    "skipped": false,
+                    "disabled": false,
+                    "pending": false,
+                    "success": true,
+                    "suite": [
+                        "Testing Fetching data through BuffetBookingService"
+                    ],
+                    "time": 6,
+                    "executedExpectationsCount": 1
+                },
+                {
+                    "fullName": "Testing GetBookingComponent TSC 62 - GetBookingComponent Html should have Two-way binding",
+                    "description": "TSC 62 - GetBookingComponent Html should have Two-way binding",
+                    "id": "spec46",
+                    "log": [],
+                    "skipped": false,
+                    "disabled": false,
+                    "pending": false,
+                    "success": true,
+                    "suite": [
+                        "Testing GetBookingComponent"
+                    ],
+                    "time": 42,
+                    "executedExpectationsCount": 1
+                },
+                {
+                    "fullName": "Testing GetBookingComponent TSC 63 -  getBooking() method calls service",
+                    "description": "TSC 63 -  getBooking() method calls service",
+                    "id": "spec47",
+                    "log": [],
+                    "skipped": false,
+                    "disabled": false,
+                    "pending": false,
+                    "success": true,
+                    "suite": [
+                        "Testing GetBookingComponent"
+                    ],
+                    "time": 55,
+                    "executedExpectationsCount": 1
+                },
+                {
+                    "fullName": "Testing GetBookingComponent TSC 64 - Proper bootstrap class used for Button",
+                    "description": "TSC 64 - Proper bootstrap class used for Button",
+                    "id": "spec48",
+                    "log": [],
+                    "skipped": false,
+                    "disabled": false,
+                    "pending": false,
+                    "success": true,
+                    "suite": [
+                        "Testing GetBookingComponent"
+                    ],
+                    "time": 27,
+                    "executedExpectationsCount": 1
+                },
+                {
+                    "fullName": "Testing GetBookingComponent TSC 65 - Used bootstrap class input field",
+                    "description": "TSC 65 - Used bootstrap class input field",
+                    "id": "spec49",
+                    "log": [],
+                    "skipped": false,
+                    "disabled": false,
+                    "pending": false,
+                    "success": true,
+                    "suite": [
+                        "Testing GetBookingComponent"
+                    ],
+                    "time": 29,
+                    "executedExpectationsCount": 1
+                },
+                {
+                    "fullName": "Testing GetBookingComponent TSC 66 - Check if getBooking() method nullifies Error message on Valid input",
+                    "description": "TSC 66 - Check if getBooking() method nullifies Error message on Valid input",
+                    "id": "spec50",
+                    "log": [],
+                    "skipped": false,
+                    "disabled": false,
+                    "pending": false,
+                    "success": true,
+                    "suite": [
+                        "Testing GetBookingComponent"
+                    ],
+                    "time": 28,
+                    "executedExpectationsCount": 1
+                },
+                {
+                    "fullName": "Testing GetBookingComponent TSC 67 - Should display result in tabular form",
+                    "description": "TSC 67 - Should display result in tabular form",
+                    "id": "spec51",
+                    "log": [],
+                    "skipped": false,
+                    "disabled": false,
+                    "pending": false,
+                    "success": true,
+                    "suite": [
+                        "Testing GetBookingComponent"
+                    ],
+                    "time": 35,
+                    "executedExpectationsCount": 1
+                },
+                {
+                    "fullName": "Testing GetBookingComponent TSC 68 - Table bootstrap class used",
+                    "description": "TSC 68 - Table bootstrap class used",
+                    "id": "spec52",
+                    "log": [],
+                    "skipped": false,
+                    "disabled": false,
+                    "pending": false,
+                    "success": true,
+                    "suite": [
+                        "Testing GetBookingComponent"
+                    ],
+                    "time": 26,
+                    "executedExpectationsCount": 1
+                },
+                {
+                    "fullName": "Testing GetBookingComponent TSC 69 - Should display result in tabular form 2",
+                    "description": "TSC 69 - Should display result in tabular form 2",
+                    "id": "spec53",
+                    "log": [],
+                    "skipped": false,
+                    "disabled": false,
+                    "pending": false,
+                    "success": true,
+                    "suite": [
+                        "Testing GetBookingComponent"
+                    ],
+                    "time": 44,
+                    "executedExpectationsCount": 1
+                },
+                {
+                    "fullName": "Testing Pipe TSP 1 - Formated output for less plates",
+                    "description": "TSP 1 - Formated output for less plates",
+                    "id": "spec54",
+                    "log": [],
+                    "skipped": false,
+                    "disabled": false,
+                    "pending": false,
+                    "success": true,
+                    "suite": [
+                        "Testing Pipe"
+                    ],
+                    "time": 31,
+                    "executedExpectationsCount": 1
+                },
+                {
+                    "fullName": "Testing Pipe TSP 2 - Formated output for more plates",
+                    "description": "TSP 2 - Formated output for more plates",
+                    "id": "spec55",
+                    "log": [],
+                    "skipped": false,
+                    "disabled": false,
+                    "pending": false,
+                    "success": true,
+                    "suite": [
+                        "Testing Pipe"
+                    ],
+                    "time": 39,
+                    "executedExpectationsCount": 1
+                },
+                {
+                    "fullName": "Testing GetBookingService TS 6 - GetBookingService should be injected",
+                    "description": "TS 6 - GetBookingService should be injected",
+                    "id": "spec56",
+                    "log": [],
+                    "skipped": false,
+                    "disabled": false,
+                    "pending": false,
+                    "success": true,
+                    "suite": [
+                        "Testing GetBookingService"
+                    ],
+                    "time": 9,
+                    "executedExpectationsCount": 1
+                },
+                {
+                    "fullName": "Testing GetBookingService TS 7 - HttpClient must be injected in GetBookingService",
+                    "description": "TS 7 - HttpClient must be injected in GetBookingService",
+                    "id": "spec57",
+                    "log": [],
+                    "skipped": false,
+                    "disabled": false,
+                    "pending": false,
+                    "success": true,
+                    "suite": [
+                        "Testing GetBookingService"
+                    ],
+                    "time": 11,
+                    "executedExpectationsCount": 2
+                },
+                {
+                    "fullName": "Testing fetching data through BuffetBookingService TS 8 - GetBookingService should be created",
+                    "description": "TS 8 - GetBookingService should be created",
+                    "id": "spec58",
+                    "log": [],
+                    "skipped": false,
+                    "disabled": false,
+                    "pending": false,
+                    "success": true,
+                    "suite": [
+                        "Testing fetching data through BuffetBookingService"
+                    ],
+                    "time": 6,
+                    "executedExpectationsCount": 1
+                },
+                {
+                    "fullName": "Testing fetching data through BuffetBookingService TS 9 - GetBookingService getBooking() should return observable",
+                    "description": "TS 9 - GetBookingService getBooking() should return observable",
+                    "id": "spec59",
+                    "log": [],
+                    "skipped": false,
+                    "disabled": false,
+                    "pending": false,
+                    "success": true,
+                    "suite": [
+                        "Testing fetching data through BuffetBookingService"
+                    ],
+                    "time": 6,
+                    "executedExpectationsCount": 1
+                },
+                {
+                    "fullName": "Testing fetching data through BuffetBookingService TS 12 - getDetails() should be called using GET method",
+                    "description": "TS 12 - getDetails() should be called using GET method",
+                    "id": "spec60",
+                    "log": [],
+                    "skipped": false,
+                    "disabled": false,
+                    "pending": false,
+                    "success": true,
+                    "suite": [
+                        "Testing fetching data through BuffetBookingService"
+                    ],
+                    "time": 9,
+                    "executedExpectationsCount": 1
+                }
+            ]
+        }
+    ]
+}

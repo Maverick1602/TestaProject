@@ -1,0 +1,43 @@
+<br />
+<div class="row">
+  <div class="col-4 offset-4">
+    <div class="card bg-basic text-dark">
+      <div class="card-body">
+        <div class="card-title">
+          <div class="panel-heading">View Booking</div><br />
+          <div class="card-block">
+
+            <p>Enter Email Id:</p>
+            <input class="form-control" [(ngModel)]="emailId" type="text">
+            <br>
+            <button type="submit" class="btn btn-primary" (click)="getBooking()">Get Details</button>
+            <div *ngIf="errorMessage!=null">
+              <span class="text text-danger">{{errorMessage}}</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div *ngIf="selectedBooking!=null">
+        <br>
+        <table class="table table-bordered">
+          <tr>
+            <th>Buffet Name</th>
+            <th>Booking Id</th>
+            <th>Plate Count</th>
+          </tr>
+
+          <tr *ngFor="let booking of selectedBooking; let i = index ">
+            <td>{{ booking.buffetName }}</td>
+            <td>{{ booking.bookingId }}</td>
+            <td>{{ booking.plateCount | plateCount }}</td>
+            <!-- | plateCount -->
+          </tr>
+
+        </table>
+
+      </div>
+    </div>
+  </div>
+</div>
